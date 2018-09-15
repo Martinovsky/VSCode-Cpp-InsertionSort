@@ -8,7 +8,9 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g", "main.cpp", "-o", "InsertionSort.exe"
+                "-g", "main.cpp",
+                "sort/insertionSort.cpp",
+                "-o", "InsertionSort.exe"
             ],
             "group": {
                 "kind": "build",
