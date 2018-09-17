@@ -3,7 +3,7 @@
 
 void insertionSort(std::vector<int> &data)
 {
-    if (data.empty() || data.size() == 1)
+    if (data.empty())
     {
         return;
     }
@@ -24,7 +24,7 @@ void insertionSort(std::vector<int> &data)
 std::vector<int> insertionSort(const std::vector<int> &data)
 {
     std::vector<int> result;
-    if (data.empty() || data.size() == 1)
+    if (data.empty())
     {
         return result;
     }
